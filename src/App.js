@@ -1,23 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+// import Contact_View_Screen from './Contact Form/contact_view_screen';
+import ContactView_Screen from './Contact Form/ContactView_Screen';
+// import Routing from './Contact Form/Routing';
 
+// 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App">  
+    <ContactView_Screen/>
+    {/* <Routing/> */}
+
     </div>
   );
 }

@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.contact-form{
+    display: flex;    
+}
+.main{
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 400px;
+    padding: 10px;
+    background: black;
+}
+.Main_head{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background: rgb(151, 213, 237);
+    color: white;
+    border-radius: 5px;
+}
+.add_data{
+    align-items: center;
+    margin: 3px 0 0 9px;
+}
+[placeholder *= 'C']{
+    padding: 5px;
+    margin: 10px 0;
+    border-radius: 5px;
+    width: 300px;
+    border: none;
+}
+.add_contact{
+    width: 300px;
+    max-height: 380px;
+    margin: 20px 0 0 10px;
+    display: none; 
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+}
+.add_details{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    color: rgb(186, 239, 239);
+}
+.label{
+    display: flex;
+    margin-left: 30px;
+}
+.default-data{
+    background: white;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5px;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px 0 0 0;
+}
+[placeholder ^= 'E']{
+    padding: 5px;
+    margin: 5px 0 0 0;
+    border-radius: 5px;
+    width: 250px;
+}
